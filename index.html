@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ricardo Vieira">
+    <meta name="description"
+        content="Este trabalho tem como objetivo a criação de uma página web interativa para o cálculo do Índice de Massa Corporal (IMC), uma ferramenta amplamente utilizada para avaliar o estado nutricional de uma pessoa com base em seu peso e altura.">
+    <title>Calculadora de IMC</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="calculardora_imc.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora de IMC</h1>
+    <br> <br>
+    <label for="peso">Peso (kg):</label>
+    <input type="number" id="peso" placeholder="Ex: 70" required>
+    <br> <br>
+    <label for="Altura">Altura (m):</label>
+    <input type="number" id="Altura" placeholder="Ex: 1,60" required>
+
+    <p id="resultado"></p>
+    <br>
+    <p id="classificacao"></p>
+
+    <button onclick="calcularIMC()">Calcular</button>
+
+</body>
+
+</html>
