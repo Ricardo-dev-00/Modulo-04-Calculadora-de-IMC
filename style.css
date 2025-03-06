@@ -7,7 +7,7 @@
 body {
     width: 100%;
     background-color: rgb(4, 11, 44);
-    padding: 0 10px;
+    padding: 0 15px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -60,6 +60,7 @@ button:hover {
     color: #fff;
 }
 
+/* section informacoes */
 .informacao {
     display: block;
     color: #000;
@@ -77,7 +78,7 @@ button:hover {
 }
 
 .informacao h3 {
-    color: #000;
+    color: rgb(19, 36, 124);
     font-size: 1.4rem;
     margin-top: 20px;
 }
@@ -89,9 +90,20 @@ button:hover {
     margin-top: 8px;
 }
 
+.informacao ul {
+    list-style-position: inside;
+}
+
+.informacao ul li {
+    color: #6e6e6e;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 10px;
+}
+
 .informacao strong {
-    color: rgb(19, 36, 124);
-    font-size: 20px;
+    color: #3b3b3b;
+    font-size: 16px;
     margin-top: 15px;
     display: block;
 }
